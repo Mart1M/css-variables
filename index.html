@@ -3,25 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Penpot plugin example</title>
+    <title>CSS Color Variables</title>
   </head>
   <body>
-    <p>Penpot plugin starter template</p>
-
-    <p>
-      Checkout the
-      <a
-        target="_blank"
-        href="https://penpot-docs-plugins.pages.dev/technical-guide/plugins/"
-        >documentation</a
-      >
-      to get started.
-    </p>
-
-    <button type="button" data-appearance="primary" data-handler="create-text">
-      Create text
-    </button>
-
+    <div id="app">
+      <h1 class="title-m">CSS Color Variables</h1>
+      <button data-handler="get-colors" data-appearance="primary">Get Colors</button>
+      <div id="color-list"></div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

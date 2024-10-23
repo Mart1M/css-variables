@@ -12,3 +12,28 @@ body {
 p {
   margin-block-end: 0.75rem;
 }
+
+.css-variables-container {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.css-variables-container textarea.penpot-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 15px;
+  resize: vertical;
+  font-family: monospace;
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+}
+.title-m{
+  margin-bottom: 12px;
+}
+#css-variables{
+  height: auto;
+}

@@ -5,6 +5,7 @@
   "description": "This is a starter plugin for Penpot",
   "permissions": [
     "content:read",
-    "content:write"
+    "content:write",
+    "library:read"
   ]
 }

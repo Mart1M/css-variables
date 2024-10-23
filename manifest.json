@@ -1,0 +1,9 @@
+{
+  "name": "CSS Color Variables",
+  "description": "Display library colors as CSS variables",
+  "icon": "plugin-icon.svg",
+  "code": "plugin.js",
+  "permissions": [
+    "library:read"
+  ]
+}
